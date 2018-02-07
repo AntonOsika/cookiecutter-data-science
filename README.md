@@ -1,9 +1,7 @@
 # Cookiecutter Data Science
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
 
-
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
 
 
 ### Requirements to use the cookiecutter template:
@@ -28,8 +26,6 @@ $ conda install cookiecutter
 
     cookiecutter https://github.com/drivendata/cookiecutter-data-science
 
-
-[![asciicast](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02.png)](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02)
 
 
 ### The resulting directory structure
@@ -63,7 +59,7 @@ The directory structure of your new project looks like this:
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-├── src                <- Source code for use in this project.
+├── { repo_name }      <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
 │   ├── data           <- Scripts to download or generate data
@@ -83,8 +79,16 @@ The directory structure of your new project looks like this:
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
 
+
+## Showcasing
+------------
+
+[![asciicast](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02.png)](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02)
+
 ## Contributing
 
+
+#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
 We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
